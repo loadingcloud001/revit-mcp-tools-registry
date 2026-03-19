@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-03-19T00:00:00Z",
+  "tools": [
+    {
+      "id": "builtin_say_hello",
+      "name": "say_hello",
+      "version": "1.0",
+      "status": "active",
+      "type": "builtin"
+    },
+    {
+      "id": "dynamic_test_tool",
+      "name": "cloud_hello_world",
+      "description": "A dynamic cloud tool that returns a greeting message directly from the execute block.",
+      "version": "1.0",
+      "status": "active",
+      "type": "dynamic",
+      "script_url": "https://raw.githubusercontent.com/loadingcloud001/revit-mcp-tools-registry/main/scripts/cloud_hello_world.csx"
+    }
+  ]
+}
